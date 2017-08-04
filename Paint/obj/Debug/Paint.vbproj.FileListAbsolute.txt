@@ -1,0 +1,11 @@
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\bin\Debug\Paint.exe.config
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\bin\Debug\Paint.exe
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\bin\Debug\Paint.pdb
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\bin\Debug\Paint.xml
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.vbprojResolveAssemblyReference.cache
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.Form1.resources
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.Resources.resources
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.vbproj.GenerateResource.Cache
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.exe
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.xml
+C:\Users\CCLC\Documents\Matthew\Paint\Paint\obj\Debug\Paint.pdb
