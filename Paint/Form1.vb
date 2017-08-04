@@ -101,6 +101,7 @@
 
     Private Sub Eraser_Click(sender As Object, e As EventArgs) Handles Eraser.Click
         brushpressed = True
+        linepressed = False
         brush.Color = Color.White
     End Sub
 
