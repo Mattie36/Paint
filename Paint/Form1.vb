@@ -6,27 +6,26 @@
     Dim brushpressed As Boolean
     Dim linepressed As Boolean
 
+    'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    'Dim draw As System.Drawing.Graphics
+    'draw = Me.CreateGraphics
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim draw As System.Drawing.Graphics
-        draw = Me.CreateGraphics
+    'Dim blackPen As New Pen(Color.Black, 3)
 
-        Dim blackPen As New Pen(Color.Black, 3)
+    'draw.DrawEllipse(blackPen, 175, 25, 75, 75)
+    'draw.DrawLine(blackPen, 210, 100, 210, 210)
+    'draw.DrawLine(blackPen, 210, 209, 140, 325)
+    'draw.DrawLine(blackPen, 210, 209, 280, 325)
+    'draw.DrawLine(blackPen, 210, 155, 125, 100)
+    'draw.DrawLine(blackPen, 210, 155, 295, 100)
 
-        draw.DrawEllipse(blackPen, 175, 25, 75, 75)
-        draw.DrawLine(blackPen, 210, 100, 210, 210)
-        draw.DrawLine(blackPen, 210, 209, 140, 325)
-        draw.DrawLine(blackPen, 210, 209, 280, 325)
-        draw.DrawLine(blackPen, 210, 155, 125, 100)
-        draw.DrawLine(blackPen, 210, 155, 295, 100)
-
-        draw.DrawEllipse(blackPen, 600, 25, 75, 75)
-        draw.DrawLine(blackPen, 635, 100, 635, 210)
-        draw.DrawLine(blackPen, 635, 209, 565, 325)
-        draw.DrawLine(blackPen, 635, 209, 705, 325)
-        draw.DrawLine(blackPen, 635, 155, 550, 100)
-        draw.DrawLine(blackPen, 635, 155, 720, 100)
-    End Sub
+    ' draw.DrawEllipse(blackPen, 600, 25, 75, 75)
+    'draw.DrawLine(blackPen, 635, 100, 635, 210)
+    'draw.DrawLine(blackPen, 635, 209, 565, 325)
+    'draw.DrawLine(blackPen, 635, 209, 705, 325)
+    ' draw.DrawLine(blackPen, 635, 155, 550, 100)
+    ' draw.DrawLine(blackPen, 635, 155, 720, 100)
+    'End Sub
 
     Private Sub Form1_MouseMove(sender As Object, e As MouseEventArgs) Handles Me.MouseMove
         Dim draw As System.Drawing.Graphics = Me.CreateGraphics
@@ -68,15 +67,15 @@
     End Sub
 
     Private Sub Orange_Click(sender As Object, e As EventArgs) Handles Orange.Click
-        brush.Color = Color.OrangeRed
+        brush.Color = Color.Orange
     End Sub
 
     Private Sub Yellow_Click(sender As Object, e As EventArgs) Handles Yellow.Click
-        brush.Color = Color.Gold
+        brush.Color = Color.Yellow
     End Sub
 
     Private Sub LightGreen_Click(sender As Object, e As EventArgs) Handles LightGreen.Click
-        brush.Color = Color.YellowGreen
+        brush.Color = Color.LawnGreen
     End Sub
 
     Private Sub DarkGreen_Click(sender As Object, e As EventArgs) Handles DarkGreen.Click
@@ -128,5 +127,16 @@
     Private Sub Line_Click(sender As Object, e As EventArgs) Handles Line.Click
         linepressed = True
         brushpressed = False
+    End Sub
+
+    Private Sub Brown_Click(sender As Object, e As EventArgs) Handles Brown.Click
+        brush.Color = Color.Sienna
+    End Sub
+
+    Private Sub B_Red_Click(sender As Object, e As EventArgs) Handles B_Red.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Red, 0, 0, 1600, 850)
     End Sub
 End Class

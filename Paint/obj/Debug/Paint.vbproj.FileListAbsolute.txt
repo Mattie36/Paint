@@ -20,3 +20,14 @@ C:\Users\CCLC\Documents\Matthew\GitHub\Paint\Paint\bin\Debug\Paint.exe.config
 C:\Users\CCLC\Documents\Matthew\GitHub\Paint\Paint\bin\Debug\Paint.exe
 C:\Users\CCLC\Documents\Matthew\GitHub\Paint\Paint\bin\Debug\Paint.pdb
 C:\Users\CCLC\Documents\Matthew\GitHub\Paint\Paint\bin\Debug\Paint.xml
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.vbprojResolveAssemblyReference.cache
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.Form1.resources
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.Resources.resources
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.vbproj.GenerateResource.Cache
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.exe
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.xml
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\obj\Debug\Paint.pdb
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\bin\Debug\Paint.exe.config
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\bin\Debug\Paint.exe
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\bin\Debug\Paint.pdb
+C:\Users\Esaia\Documents\VB Projects\Paint\Paint\bin\Debug\Paint.xml
