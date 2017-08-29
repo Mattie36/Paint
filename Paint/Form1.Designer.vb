@@ -34,22 +34,22 @@ Partial Class Form1
         Me.Eraser = New System.Windows.Forms.Button()
         Me.Clear = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.B_Brown = New System.Windows.Forms.Button()
+        Me.B_Black = New System.Windows.Forms.Button()
+        Me.B_Purple = New System.Windows.Forms.Button()
+        Me.B_DarkBlue = New System.Windows.Forms.Button()
+        Me.B_LightBlue = New System.Windows.Forms.Button()
+        Me.B_DarkGreen = New System.Windows.Forms.Button()
+        Me.B_LightGreen = New System.Windows.Forms.Button()
+        Me.B_Yellow = New System.Windows.Forms.Button()
+        Me.B_Orange = New System.Windows.Forms.Button()
+        Me.B_Red = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Brown = New System.Windows.Forms.Button()
         Me.Line = New System.Windows.Forms.Button()
         Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
         Me.BrushButton = New System.Windows.Forms.Button()
         Me.OpenMenu = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.B_Red = New System.Windows.Forms.Button()
-        Me.B_Orange = New System.Windows.Forms.Button()
-        Me.B_Yellow = New System.Windows.Forms.Button()
-        Me.B_LightGreen = New System.Windows.Forms.Button()
-        Me.B_DarkGreen = New System.Windows.Forms.Button()
-        Me.B_LightBlue = New System.Windows.Forms.Button()
-        Me.B_DarkBlue = New System.Windows.Forms.Button()
-        Me.B_Purple = New System.Windows.Forms.Button()
-        Me.B_Black = New System.Windows.Forms.Button()
-        Me.B_Brown = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -146,18 +146,18 @@ Partial Class Form1
         'Eraser
         '
         Me.Eraser.ForeColor = System.Drawing.Color.Black
-        Me.Eraser.Location = New System.Drawing.Point(85, 206)
+        Me.Eraser.Location = New System.Drawing.Point(16, 206)
         Me.Eraser.Name = "Eraser"
-        Me.Eraser.Size = New System.Drawing.Size(52, 23)
+        Me.Eraser.Size = New System.Drawing.Size(121, 23)
         Me.Eraser.TabIndex = 13
         Me.Eraser.Text = "Eraser"
         Me.Eraser.UseVisualStyleBackColor = True
         '
         'Clear
         '
-        Me.Clear.Location = New System.Drawing.Point(85, 235)
+        Me.Clear.Location = New System.Drawing.Point(17, 235)
         Me.Clear.Name = "Clear"
-        Me.Clear.Size = New System.Drawing.Size(52, 23)
+        Me.Clear.Size = New System.Drawing.Size(120, 23)
         Me.Clear.TabIndex = 14
         Me.Clear.Text = "Clear"
         Me.Clear.UseVisualStyleBackColor = True
@@ -196,9 +196,118 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(140, 762)
         Me.Panel1.TabIndex = 15
         '
+        'B_Brown
+        '
+        Me.B_Brown.BackColor = System.Drawing.Color.SaddleBrown
+        Me.B_Brown.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.B_Brown.Location = New System.Drawing.Point(17, 177)
+        Me.B_Brown.Name = "B_Brown"
+        Me.B_Brown.Size = New System.Drawing.Size(23, 23)
+        Me.B_Brown.TabIndex = 28
+        Me.B_Brown.UseVisualStyleBackColor = False
+        '
+        'B_Black
+        '
+        Me.B_Black.BackColor = System.Drawing.Color.Black
+        Me.B_Black.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.B_Black.Location = New System.Drawing.Point(46, 177)
+        Me.B_Black.Name = "B_Black"
+        Me.B_Black.Size = New System.Drawing.Size(23, 23)
+        Me.B_Black.TabIndex = 27
+        Me.B_Black.UseVisualStyleBackColor = False
+        '
+        'B_Purple
+        '
+        Me.B_Purple.BackColor = System.Drawing.Color.DarkViolet
+        Me.B_Purple.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.B_Purple.Location = New System.Drawing.Point(46, 148)
+        Me.B_Purple.Name = "B_Purple"
+        Me.B_Purple.Size = New System.Drawing.Size(23, 23)
+        Me.B_Purple.TabIndex = 26
+        Me.B_Purple.UseVisualStyleBackColor = False
+        '
+        'B_DarkBlue
+        '
+        Me.B_DarkBlue.BackColor = System.Drawing.Color.Blue
+        Me.B_DarkBlue.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.B_DarkBlue.Location = New System.Drawing.Point(16, 148)
+        Me.B_DarkBlue.Name = "B_DarkBlue"
+        Me.B_DarkBlue.Size = New System.Drawing.Size(23, 23)
+        Me.B_DarkBlue.TabIndex = 25
+        Me.B_DarkBlue.UseVisualStyleBackColor = False
+        '
+        'B_LightBlue
+        '
+        Me.B_LightBlue.BackColor = System.Drawing.Color.Cyan
+        Me.B_LightBlue.ForeColor = System.Drawing.Color.Black
+        Me.B_LightBlue.Location = New System.Drawing.Point(46, 119)
+        Me.B_LightBlue.Name = "B_LightBlue"
+        Me.B_LightBlue.Size = New System.Drawing.Size(23, 23)
+        Me.B_LightBlue.TabIndex = 24
+        Me.B_LightBlue.UseVisualStyleBackColor = False
+        '
+        'B_DarkGreen
+        '
+        Me.B_DarkGreen.BackColor = System.Drawing.Color.Green
+        Me.B_DarkGreen.ForeColor = System.Drawing.Color.White
+        Me.B_DarkGreen.Location = New System.Drawing.Point(16, 119)
+        Me.B_DarkGreen.Name = "B_DarkGreen"
+        Me.B_DarkGreen.Size = New System.Drawing.Size(23, 23)
+        Me.B_DarkGreen.TabIndex = 23
+        Me.B_DarkGreen.UseVisualStyleBackColor = False
+        '
+        'B_LightGreen
+        '
+        Me.B_LightGreen.BackColor = System.Drawing.Color.LawnGreen
+        Me.B_LightGreen.ForeColor = System.Drawing.Color.Black
+        Me.B_LightGreen.Location = New System.Drawing.Point(46, 90)
+        Me.B_LightGreen.Name = "B_LightGreen"
+        Me.B_LightGreen.Size = New System.Drawing.Size(23, 23)
+        Me.B_LightGreen.TabIndex = 22
+        Me.B_LightGreen.UseVisualStyleBackColor = False
+        '
+        'B_Yellow
+        '
+        Me.B_Yellow.BackColor = System.Drawing.Color.Yellow
+        Me.B_Yellow.ForeColor = System.Drawing.Color.Black
+        Me.B_Yellow.Location = New System.Drawing.Point(17, 90)
+        Me.B_Yellow.Name = "B_Yellow"
+        Me.B_Yellow.Size = New System.Drawing.Size(23, 23)
+        Me.B_Yellow.TabIndex = 21
+        Me.B_Yellow.UseVisualStyleBackColor = False
+        '
+        'B_Orange
+        '
+        Me.B_Orange.BackColor = System.Drawing.Color.Orange
+        Me.B_Orange.ForeColor = System.Drawing.Color.Black
+        Me.B_Orange.Location = New System.Drawing.Point(46, 61)
+        Me.B_Orange.Name = "B_Orange"
+        Me.B_Orange.Size = New System.Drawing.Size(23, 23)
+        Me.B_Orange.TabIndex = 20
+        Me.B_Orange.UseVisualStyleBackColor = False
+        '
+        'B_Red
+        '
+        Me.B_Red.BackColor = System.Drawing.Color.Red
+        Me.B_Red.ForeColor = System.Drawing.Color.Black
+        Me.B_Red.Location = New System.Drawing.Point(17, 61)
+        Me.B_Red.Name = "B_Red"
+        Me.B_Red.Size = New System.Drawing.Size(23, 23)
+        Me.B_Red.TabIndex = 19
+        Me.B_Red.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(13, 32)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 13)
+        Me.Label1.TabIndex = 18
+        Me.Label1.Text = "Background"
+        '
         'Brown
         '
-        Me.Brown.BackColor = System.Drawing.Color.Sienna
+        Me.Brown.BackColor = System.Drawing.Color.SaddleBrown
         Me.Brown.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Brown.Location = New System.Drawing.Point(85, 177)
         Me.Brown.Name = "Brown"
@@ -243,115 +352,6 @@ Partial Class Form1
         Me.OpenMenu.Size = New System.Drawing.Size(63, 13)
         Me.OpenMenu.TabIndex = 15
         Me.OpenMenu.Text = "Open Menu"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 32)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 18
-        Me.Label1.Text = "Background"
-        '
-        'B_Red
-        '
-        Me.B_Red.BackColor = System.Drawing.Color.Red
-        Me.B_Red.ForeColor = System.Drawing.Color.Black
-        Me.B_Red.Location = New System.Drawing.Point(17, 61)
-        Me.B_Red.Name = "B_Red"
-        Me.B_Red.Size = New System.Drawing.Size(23, 23)
-        Me.B_Red.TabIndex = 19
-        Me.B_Red.UseVisualStyleBackColor = False
-        '
-        'B_Orange
-        '
-        Me.B_Orange.BackColor = System.Drawing.Color.Orange
-        Me.B_Orange.ForeColor = System.Drawing.Color.Black
-        Me.B_Orange.Location = New System.Drawing.Point(46, 61)
-        Me.B_Orange.Name = "B_Orange"
-        Me.B_Orange.Size = New System.Drawing.Size(23, 23)
-        Me.B_Orange.TabIndex = 20
-        Me.B_Orange.UseVisualStyleBackColor = False
-        '
-        'B_Yellow
-        '
-        Me.B_Yellow.BackColor = System.Drawing.Color.Yellow
-        Me.B_Yellow.ForeColor = System.Drawing.Color.Black
-        Me.B_Yellow.Location = New System.Drawing.Point(17, 90)
-        Me.B_Yellow.Name = "B_Yellow"
-        Me.B_Yellow.Size = New System.Drawing.Size(23, 23)
-        Me.B_Yellow.TabIndex = 21
-        Me.B_Yellow.UseVisualStyleBackColor = False
-        '
-        'B_LightGreen
-        '
-        Me.B_LightGreen.BackColor = System.Drawing.Color.LawnGreen
-        Me.B_LightGreen.ForeColor = System.Drawing.Color.Black
-        Me.B_LightGreen.Location = New System.Drawing.Point(46, 90)
-        Me.B_LightGreen.Name = "B_LightGreen"
-        Me.B_LightGreen.Size = New System.Drawing.Size(23, 23)
-        Me.B_LightGreen.TabIndex = 22
-        Me.B_LightGreen.UseVisualStyleBackColor = False
-        '
-        'B_DarkGreen
-        '
-        Me.B_DarkGreen.BackColor = System.Drawing.Color.Green
-        Me.B_DarkGreen.ForeColor = System.Drawing.Color.White
-        Me.B_DarkGreen.Location = New System.Drawing.Point(16, 119)
-        Me.B_DarkGreen.Name = "B_DarkGreen"
-        Me.B_DarkGreen.Size = New System.Drawing.Size(23, 23)
-        Me.B_DarkGreen.TabIndex = 23
-        Me.B_DarkGreen.UseVisualStyleBackColor = False
-        '
-        'B_LightBlue
-        '
-        Me.B_LightBlue.BackColor = System.Drawing.Color.Cyan
-        Me.B_LightBlue.ForeColor = System.Drawing.Color.Black
-        Me.B_LightBlue.Location = New System.Drawing.Point(46, 119)
-        Me.B_LightBlue.Name = "B_LightBlue"
-        Me.B_LightBlue.Size = New System.Drawing.Size(23, 23)
-        Me.B_LightBlue.TabIndex = 24
-        Me.B_LightBlue.UseVisualStyleBackColor = False
-        '
-        'B_DarkBlue
-        '
-        Me.B_DarkBlue.BackColor = System.Drawing.Color.Blue
-        Me.B_DarkBlue.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.B_DarkBlue.Location = New System.Drawing.Point(16, 148)
-        Me.B_DarkBlue.Name = "B_DarkBlue"
-        Me.B_DarkBlue.Size = New System.Drawing.Size(23, 23)
-        Me.B_DarkBlue.TabIndex = 25
-        Me.B_DarkBlue.UseVisualStyleBackColor = False
-        '
-        'B_Purple
-        '
-        Me.B_Purple.BackColor = System.Drawing.Color.DarkViolet
-        Me.B_Purple.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.B_Purple.Location = New System.Drawing.Point(46, 148)
-        Me.B_Purple.Name = "B_Purple"
-        Me.B_Purple.Size = New System.Drawing.Size(23, 23)
-        Me.B_Purple.TabIndex = 26
-        Me.B_Purple.UseVisualStyleBackColor = False
-        '
-        'B_Black
-        '
-        Me.B_Black.BackColor = System.Drawing.Color.Black
-        Me.B_Black.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.B_Black.Location = New System.Drawing.Point(46, 177)
-        Me.B_Black.Name = "B_Black"
-        Me.B_Black.Size = New System.Drawing.Size(23, 23)
-        Me.B_Black.TabIndex = 27
-        Me.B_Black.UseVisualStyleBackColor = False
-        '
-        'B_Brown
-        '
-        Me.B_Brown.BackColor = System.Drawing.Color.Sienna
-        Me.B_Brown.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.B_Brown.Location = New System.Drawing.Point(17, 177)
-        Me.B_Brown.Name = "B_Brown"
-        Me.B_Brown.Size = New System.Drawing.Size(23, 23)
-        Me.B_Brown.TabIndex = 28
-        Me.B_Brown.UseVisualStyleBackColor = False
         '
         'Form1
         '

@@ -58,10 +58,6 @@
         down = False
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub Red_Click(sender As Object, e As EventArgs) Handles Red.Click
         brush.Color = Color.Red
     End Sub
@@ -130,7 +126,7 @@
     End Sub
 
     Private Sub Brown_Click(sender As Object, e As EventArgs) Handles Brown.Click
-        brush.Color = Color.Sienna
+        brush.Color = Color.SaddleBrown
     End Sub
 
     Private Sub B_Red_Click(sender As Object, e As EventArgs) Handles B_Red.Click
@@ -138,5 +134,68 @@
         draw = Me.CreateGraphics
 
         draw.FillRectangle(Brushes.Red, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_Orange_Click(sender As Object, e As EventArgs) Handles B_Orange.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Orange, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_Yellow_Click(sender As Object, e As EventArgs) Handles B_Yellow.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Yellow, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_LightGreen_Click(sender As Object, e As EventArgs) Handles B_LightGreen.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.LawnGreen, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_DarkGreen_Click(sender As Object, e As EventArgs) Handles B_DarkGreen.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Green, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_LightBlue_Click(sender As Object, e As EventArgs) Handles B_LightBlue.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Cyan, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_DarkBlue_Click(sender As Object, e As EventArgs) Handles B_DarkBlue.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Blue, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_Purple_Click(sender As Object, e As EventArgs) Handles B_Purple.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.DarkViolet, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_Brown_Click(sender As Object, e As EventArgs) Handles B_Brown.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.SaddleBrown, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub B_Black_Click(sender As Object, e As EventArgs) Handles B_Black.Click
+        Dim draw As System.Drawing.Graphics
+        draw = Me.CreateGraphics
+
+        draw.FillRectangle(Brushes.Black, 0, 0, 1600, 850)
     End Sub
 End Class
