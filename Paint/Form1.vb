@@ -68,7 +68,7 @@
         Dim rectangleEnd As Point
         lineEnd = New Point(X, Y)
         If rectanglepressed = True Then
-            draw.DrawRectangle(New Pen(brush.Color), rectangleStart, rectangleEnd, rectangleStart
+            draw.DrawRectangle(New Pen(brush.Color), rectangleStart.X, rectangleStart.Y, rectangleEnd.X, rectangleEnd.Y)
         End If
 
 
