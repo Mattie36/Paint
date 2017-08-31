@@ -3,8 +3,10 @@
     Dim brush As New SolidBrush(Color.White)
     Dim thickness As Integer
     Dim linestart As Point
+    Dim rectangleStart As Point
     Dim brushpressed As Boolean
     Dim linepressed As Boolean
+    Dim rectanglepressed As Boolean
 
     'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
     'Dim draw As System.Drawing.Graphics
@@ -43,7 +45,13 @@
         Dim X As Integer = Form1.MousePosition.X - Me.Location.X - 10
         Dim Y As Integer = Form1.MousePosition.Y - Me.Location.Y - 35
 
-        linestart = New Point(X, Y)
+        If linepressed = True Then
+            linestart = New Point(X, Y)
+        End If
+
+        If rectanglepressed = True Then
+            rectangleStart = New Point(X, Y)
+        End If
     End Sub
 
     Private Sub Form1_MouseUp(sender As Object, e As MouseEventArgs) Handles Me.MouseUp
@@ -54,8 +62,16 @@
         lineEnd = New Point(X, Y)
         If linepressed = True Then
             draw.DrawLine(New Pen(brush.Color, thickness), linestart, lineEnd)
+            down = False
         End If
-        down = False
+
+        Dim rectangleEnd As Point
+        lineEnd = New Point(X, Y)
+        If rectanglepressed = True Then
+            draw.DrawRectangle(New Pen(brush.Color), rectangleStart, rectangleEnd, rectangleStart
+        End If
+
+
     End Sub
 
     Private Sub Red_Click(sender As Object, e As EventArgs) Handles Red.Click
@@ -118,11 +134,13 @@
     Private Sub BrushButton_Click(sender As Object, e As EventArgs) Handles BrushButton.Click
         brushpressed = True
         linepressed = False
+        rectanglepressed = False
     End Sub
 
     Private Sub Line_Click(sender As Object, e As EventArgs) Handles Line.Click
-        linepressed = True
         brushpressed = False
+        linepressed = True
+        rectanglepressed = False
     End Sub
 
     Private Sub Brown_Click(sender As Object, e As EventArgs) Handles Brown.Click
@@ -197,5 +215,11 @@
         draw = Me.CreateGraphics
 
         draw.FillRectangle(Brushes.Black, 0, 0, 1600, 850)
+    End Sub
+
+    Private Sub Rectangle_Click(sender As Object, e As EventArgs) Handles Rectangle.Click
+        brushpressed = False
+        linepressed = False
+        rectanglepressed = True
     End Sub
 End Class
