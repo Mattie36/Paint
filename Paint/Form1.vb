@@ -66,12 +66,12 @@
         End If
 
         Dim rectangleEnd As Point
-        lineEnd = New Point(X, Y)
+        rectangleEnd = New Point(X, Y)
         If rectanglepressed = True Then
-            draw.DrawRectangle(New Pen(brush.Color), rectangleStart.X, rectangleStart.Y, rectangleEnd.X, rectangleEnd.Y)
+            draw.DrawRectangle(New Pen(brush.Color), rectangleStart.X, rectangleStart.Y, rectangleEnd.X - rectangleStart.X, rectangleEnd.Y - rectangleStart.Y)
         End If
 
-
+        down = False
     End Sub
 
     Private Sub Red_Click(sender As Object, e As EventArgs) Handles Red.Click
